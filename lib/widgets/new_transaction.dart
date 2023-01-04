@@ -85,7 +85,8 @@ class _NewTransactionState extends State<NewTransaction> {
                   children: [
                     Expanded(
                       child: Container(
-                        padding: EdgeInsets.symmetric(vertical: 2, horizontal: 8),
+                        padding:
+                            EdgeInsets.symmetric(vertical: 2, horizontal: 8),
                         child: Text(
                           (_selectedDate == null)
                               ? 'No Date Choosen'
